@@ -9,7 +9,7 @@
   <node pkg="nodelet"
         type="nodelet"
         name="MessageStation"
-        args="load nodelet_tester_lib/MessageStation standalone_nodelet_manager"
+        args="load nodelet_tester_name/MessageStation standalone_nodelet_manager"
         output="screen"
   >
       <!-- <remap from="/MessageStation/ros_in" to="/talker_msg"/> -->

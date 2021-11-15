@@ -108,7 +108,7 @@ namespace nodelet_ns
     PLUGINLIB_EXPORT_CLASS(nodelet_ns::MessageStation, nodelet::Nodelet);
 } //End of nodelet_ns namespace
 ```
-> With the plugin library, we don’t need to link our node executable against our nodelet library in CMakeLists. However, we need to describe it in an xml file
+> With the plugin library, we don’t need to link our node executable against our nodelet library in CMakeLists. However, we need to create the .xml file to define the nodelet as a plugin.
 
 touch nodelet_plugins.xml
 

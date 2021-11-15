@@ -1,5 +1,5 @@
 <library path="lib/libnodelet_tester_lib">
-  <class name="nodelet_tester_lib/MessageStation" 
+  <class name="nodelet_tester_name/MessageStation" 
          type="nodelet_ns::MessageStation"  
          base_class_type="nodelet::Nodelet">
     <description>
