@@ -198,10 +198,12 @@ rostopic pub /MessageStation/ros_in std_msgs/String "Hi Tri Nguyen"
 
 rqt_graph
 
-### remap 
+### remap (Condition: you must have another package with a pulisher)
 > The <remap> tag: Remapping allows you to "trick" a ROS node so that when it thinks it is subscribing to or publishing to /some_topic it is actually subscribing to or publishing to /some_other_topic, for instance. 
 
-> We can use <remap> tag to let the project receive the input from a different topic, ex: "/talker_msg" from a different project, so we don't need to manual input it.
+    `<remap from="/different_topic" to="/needed_topic"/>`
+
+> We can use <remap> tag to let the project receive the input data from a different topic, ex: "/talker_msg" (from gtest_example package in this case), so we don't need to manual input it.
 > Change the launch file:
 
 ```
