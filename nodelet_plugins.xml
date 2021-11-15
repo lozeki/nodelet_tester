@@ -1,0 +1,9 @@
+<library path="lib/libnodelet_tester_lib">
+  <class name="nodelet_tester_lib/MessageStation" 
+         type="nodelet_ns::MessageStation"  
+         base_class_type="nodelet::Nodelet">
+    <description>
+        This nodelet receives messages and publishes them.
+    </description>
+  </class>
+</library>
